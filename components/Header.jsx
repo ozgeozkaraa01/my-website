@@ -3,7 +3,7 @@ import React from "react";
 
 const Header = () => {
   return (
-    <div className="shadow border-b sticky top-0 bg-green z-30">
+    <div className="shadow border-b sticky top-0 bg-violet-200 z-30">
       <div className="flex items-center justify-between max-w-6xl mx-4 xl:mx-auto">
         {/* Left */}
         <div className=" h-24 w-24 space-x-28 relative">

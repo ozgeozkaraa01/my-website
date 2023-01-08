@@ -3,7 +3,7 @@ import React from "react";
 
 const Header = () => {
   return (
-    <div className="shadow border-b sticky top-0 bg-violet-200 z-30">
+    <div className="shadow sticky top-0 z-30 bg-darkblue-900 border-b border-gray-500/20">
       <div className="flex items-center justify-between max-w-6xl mx-4 xl:mx-auto">
         {/* Left */}
         <div className=" h-24 w-24 space-x-28 relative">
@@ -26,19 +26,19 @@ const Header = () => {
             <span className="whitespace-nowrap">Home</span>
           </a>
           <a
-            className="inline-flex items-center space-x-2 transition text-white"
+            className="inline-flex items-center space-x-2 transition text-gray-400 hover:text-white"
             href="#"
           >
             <span className="whitespace-nowrap">About Me</span>
           </a>
           <a
-            className="inline-flex items-center space-x-2 transition text-white"
+            className="inline-flex items-center space-x-2 transition text-gray-400 hover:text-white"
             href="#"
           >
             <span className="whitespace-nowrap">Blog</span>
           </a>
           <a
-            className="inline-flex items-center space-x-2 transition text-white"
+            className="inline-flex items-center space-x-2 transition text-gray-400 hover:text-white"
             href="#"
           >
             <span className="whitespace-nowrap">Experience</span>

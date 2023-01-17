@@ -1,3 +1,5 @@
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faGithub } from "@fortawesome/free-brands-svg-icons";
 import Image from "next/image";
 import React from "react";
 
@@ -21,13 +23,13 @@ const Header = () => {
         <nav className="flex-1 flex items-center justify-end space-x-8">
           <a
             className="inline-flex items-center space-x-2 transition text-white"
-            href="#"
+            href="http://localhost:3000/"
           >
             <span className="whitespace-nowrap">Home</span>
           </a>
           <a
             className="inline-flex items-center space-x-2 transition text-gray-400 hover:text-white"
-            href="#"
+            href="/hakkimda"
           >
             <span className="whitespace-nowrap">About Me</span>
           </a>
@@ -42,6 +44,12 @@ const Header = () => {
             href="#"
           >
             <span className="whitespace-nowrap">Experience</span>
+          </a>
+          <a href="https://github.com/ozgeozkaraa01" target="blank">
+            <FontAwesomeIcon
+              className="text-gray-500 hover:text-white"
+              icon={faGithub}
+            />
           </a>
         </nav>
       </div>
